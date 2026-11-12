@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "scope": "instance-qualified excessive element distortion messages only",
+  "elements": [
+    {
+      "instance": "BRACKET-1",
+      "element_label": 42,
+      "occurrences": 2,
+      "source_lines": [
+        2,
+        3
+      ]
+    },
+    {
+      "instance": "PLATE-1",
+      "element_label": 7,
+      "occurrences": 1,
+      "source_lines": [
+        5
+      ]
+    },
+    {
+      "instance": "PLATE-1",
+      "element_label": 42,
+      "occurrences": 1,
+      "source_lines": [
+        4
+      ]
+    }
+  ],
+  "unparsed_distortion_lines": [
+    {
+      "line": 7,
+      "text": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 3 INTEGRATION POINTS."
+    }
+  ],
+  "summary": {
+    "unique_elements": 3,
+    "matched_occurrences": 4,
+    "unparsed_distortion_lines": 1,
+    "interpretation": "Not a solver completion or model-validity assessment."
+  },
+  "source": {
+    "filename": "distortion.msg",
+    "sha256": "6c9d7d7831768267999013a365161e6dea31afe508d97d39a8b0b156fed702f0",
+    "encoding": "utf-8-sig"
+  }
+}
